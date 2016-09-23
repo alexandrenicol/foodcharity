@@ -33,9 +33,7 @@ header, footer {
   display: none;
 }
 
-ul, li {
-  list-style: none;
-}
+
 
 aside {
   position: fixed;
@@ -75,4 +73,13 @@ aside {
     padding: 5px;
   }
   
+}
+  
+.li{
+    list-style-type: circle;
+}
+  
+
+form {
+  padding: 10px;
 }
