@@ -1,0 +1,29 @@
+{
+    "extends": "pureprofile",
+    "parser": "espree",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": { "node": true },
+    "rules": {
+    // disable es6 rules
+        "no-var": 0,
+        "strict": 0,
+        "prefer-arrow-callback": 0,
+        "no-console": 0,
+        "no-trailing-spaces": 0,
+        "no-shadow": 0,
+        "no-extra-parens": 0,
+        "no-path-concat": 0,
+        "consistent-this": 0,
+        "no-else-return": 0,
+        "no-loop-func": 0,
+        "no-eval": 0
+    }
+}
+
+
+  

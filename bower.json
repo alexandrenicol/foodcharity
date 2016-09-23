@@ -1,0 +1,29 @@
+{
+  "name": "plateforme-produit",
+  "description": "POC plateform produit",
+  "main": "index.js",
+  "authors": [
+    "alexandre - digital innovation team @ EDF Energy"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "angular-cookies": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7",
+    "ngSweetAlert": "angular-sweetalert#^1.1.0",
+    "angular-rangeslider-directive": "^0.0.2"
+  }
+}
