@@ -92,6 +92,15 @@ angular
         }
       }
     })
+    .state('main.about', {
+      url: 'about',
+      views: {
+        content: {
+          templateUrl: './scripts/views/Base/about.html',
+          controller: 'AboutController'
+        }
+      }
+    })
     .state('main.contact', {
       url: 'contact',
       views: {
