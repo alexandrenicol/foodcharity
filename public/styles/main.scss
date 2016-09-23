@@ -11,9 +11,7 @@ header, footer {
   display: none;
 }
 
-ul, li {
-  list-style: none;
-}
+
 
 aside {
   position: fixed;
@@ -36,3 +34,9 @@ aside {
   width: 100vw;
 }
 
+.li{
+    list-style-type: circle;
+}
+.content{
+
+}
