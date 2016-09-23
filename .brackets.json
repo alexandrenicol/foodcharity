@@ -1,0 +1,5 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/alexandrenicol/dev/hackathon/foodcharity/public/dist/bower_components/markerclustererplus/src/markerclusterer.js"
+    ]
+}

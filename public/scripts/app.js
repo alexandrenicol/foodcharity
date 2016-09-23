@@ -16,7 +16,8 @@ angular
     'ngSanitize',
     'ui.router',
     'oitozero.ngSweetAlert',
-    'angularRangeSlider'
+    'angularRangeSlider',
+    'ngMap'
   ])
   .config(function ($stateProvider, $locationProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
@@ -37,7 +38,8 @@ angular
             templateUrl: './scripts/views/Base/footer.html'
           },
           'content@main': {
-            templateUrl: './scripts/views/Base/content.html'
+            templateUrl: './scripts/views/Base/content.html',
+            controller: 'HomeController'
           },
           'aside@main': {
             templateUrl: './scripts/views/Base/aside.html',
@@ -100,3 +102,11 @@ angular
       }
     });
   });
+
+  /* .config(function (uiGmapGoogleMapApiProvider) {
+    uiGmapGoogleMapApiProvider.configure({
+      key: 'AIzaSyDg54T9qfRVJ3K04bSNJUU07HvnImeIiZI',
+      v: '3.20', // defaults to latest 3.X anyhow
+      libraries: 'weather,geometry,visualization'
+    });
+  }); */

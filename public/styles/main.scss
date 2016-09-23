@@ -1,11 +1,33 @@
 
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$icon-font-path: '../../bower_components/bootstrap-sass/assets/fonts/bootstrap';
+
+@function font-path($path) {
+  @return $path;
+}
 
 * {
   box-sizing: border-box;
 }
 
+#topbar {
+  padding-left: 10px;
+  padding-top: 5px; 
+  
+  img {
+    height:35px;
+  }
+}
 
+#menu {
+  background-color: white;
+  height: 100vh;
+  width:50%;
+  padding: 30px;
+  margin-top: 10px;
+}
 
 header, footer {
   display: none;
@@ -17,7 +39,7 @@ ul, li {
 
 aside {
   position: fixed;
-  height: 70px;
+  height: 60px;
   right:0;
   left:0;
   top:0;
@@ -31,8 +53,26 @@ aside {
   z-index:1;
   position: relative;
   top: 0;
-  padding-top: 70px;
+  padding-top: 60px;
   min-height: 100vh;
   width: 100vw;
 }
 
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+#main-map {
+  height: 75vh !important;
+  width: 100%;
+}
+
+#content {
+  padding-top: 10px;
+  
+  p {
+    padding: 5px;
+  }
+  
+}
